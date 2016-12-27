@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<transition xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/threeaces_0"/>
-    <item android:drawable="@drawable/threeaces_1"/>
-    <item android:drawable="@drawable/threeaces_2"/>
-    <item android:drawable="@drawable/threeaces_3"/>
-</transition>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/threeaces_0"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_1"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_2"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_3"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_4"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_5"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_6"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_7"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_8"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_9"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_10"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_11"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_12"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_13"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_14"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_15"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_16"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_17"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_18"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_19"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_20"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_21"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_22"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_23"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_24"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_25"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_26"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_27"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_28"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_29"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_30"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_31"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_32"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_33"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_34"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_35"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_36"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_37"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_38"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_39"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_40"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_41"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_42"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_43"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_44"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_45"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_46"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_47"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_48"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_49"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_50"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_51"    android:duration="200"/>
+    <item android:drawable="@drawable/threeaces_52"    android:duration="500"/>
+</animation-list>
