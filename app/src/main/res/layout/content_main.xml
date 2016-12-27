@@ -12,9 +12,38 @@
     tools:context="com.example.tssudhish.myfirstapplication.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textStyle="normal|bold|italic" />
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!!"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Push Me!"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:onClick="populateOutputText"
+            android:id="@+id/push_button"
+            android:padding="5dp"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/output_text"
+            android:editable="false"
+            android:id="@+id/show_text"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
 </RelativeLayout>

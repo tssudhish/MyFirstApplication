@@ -3,29 +3,29 @@ package com.example.tssudhish.myfirstapplication;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button pushButton;
+    private TextInputEditText txtOutput;
+
+    public boolean bButtonPushed=false;
+    public int icount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        pushButton = (Button) findViewById(R.id.push_button);
+        txtOutput =(TextInputEditText) findViewById(R.id.show_text);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -48,5 +48,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void populateOutputText(View view) {
+        if(!bButtonPushed){
+            icount+=1;
+            txtOutput.setText("You Pushed this Button for the first time");
+            bButtonPushed=true;
+        } else {
+            icount+=1;
+            txtOutput.setText("You Already Pushed for the " + icount + " time!") ;
+
+            //Toast.makeText(MainActivity.this, "Pushed Button for" + icount, Toast.LENGTH_SHORT).show();
+        }
     }
 }
